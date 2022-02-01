@@ -1,0 +1,401 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-01T19:43:03.313Z",
+        "line": 11,
+        "name": "Verify Console errors",
+        "description": "",
+        "id": "console-logs-in-devtools;verify-console-errors;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1612759200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is open and user navigate to \"https://www.w3.org/standards/webdesign/htmlcss\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/webdesign/htmlcss\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.browser_is_open_and_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145555900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "get and verify console logs",
+            "match": {
+              "location": "StepDefinition.TestStepDefinition.get_and_verify_console_logs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-01T19:43:05.121Z",
+        "line": 12,
+        "name": "Verify Console errors",
+        "description": "",
+        "id": "console-logs-in-devtools;verify-console-errors;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 964628400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is open and user navigate to \"https://www.w3.org/standards/webofdevices/multimodal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/webofdevices/multimodal\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.browser_is_open_and_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90603700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "get and verify console logs",
+            "match": {
+              "location": "StepDefinition.TestStepDefinition.get_and_verify_console_logs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-01T19:43:06.180Z",
+        "line": 13,
+        "name": "Verify Console errors",
+        "description": "",
+        "id": "console-logs-in-devtools;verify-console-errors;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 976738500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is open and user navigate to \"https://www.w3.org/standards/badpage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/badpage\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.browser_is_open_and_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: there is error message\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat CucumberPageObjectModel.dashBoardPage.getConsoleLogs(dashBoardPage.java:43)\r\n\tat StepDefinition.TestStepDefinition.get_and_verify_console_logs(TestStepDefinition.java:27)\r\n\tat ✽.get and verify console logs(file:///C:/Users/Sheharyar%20Jafri/Desktop/CucumberJavaDevTools/src/test/resources/Features/TestScenarioDevTools.feature:6)\r\n",
+              "duration": 5002200,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "get and verify console logs",
+            "match": {
+              "location": "StepDefinition.TestStepDefinition.get_and_verify_console_logs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-01T19:43:07.169Z",
+        "line": 25,
+        "name": "get response code",
+        "description": "",
+        "id": "console-logs-in-devtools;get-response-code;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 950601900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Browser is open and user navigate to \"https://www.w3.org/standards/webdesign/htmlcss\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/webdesign/htmlcss\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.browser_is_open_and_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 303071100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "get and verify response code \"https://www.w3.org/standards/webdesign/htmlcss\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/webdesign/htmlcss\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.get_and_verify_response_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-01T19:43:08.425Z",
+        "line": 26,
+        "name": "get response code",
+        "description": "",
+        "id": "console-logs-in-devtools;get-response-code;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 955336300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Browser is open and user navigate to \"https://www.w3.org/standards/webofdevices/multimodal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/webofdevices/multimodal\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.browser_is_open_and_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189047600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "get and verify response code \"https://www.w3.org/standards/webofdevices/multimodal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/webofdevices/multimodal\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.get_and_verify_response_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-01T19:43:09.573Z",
+        "line": 27,
+        "name": "get response code",
+        "description": "",
+        "id": "console-logs-in-devtools;get-response-code;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 995598700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Browser is open and user navigate to \"https://www.w3.org/standards/badpage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/badpage\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.browser_is_open_and_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 270955300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "get and verify response code \"https://www.w3.org/standards/badpage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/badpage\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.get_and_verify_response_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-01T19:43:10.842Z",
+        "line": 40,
+        "name": "get all links",
+        "description": "",
+        "id": "console-logs-in-devtools;get-all-links;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 940659800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Browser is open and user navigate to \"https://www.w3.org/standards/webdesign/htmlcss\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/webdesign/htmlcss\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.browser_is_open_and_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 266994652200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "get all links",
+            "match": {
+              "location": "StepDefinition.TestStepDefinition.get_all_links()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-01T19:47:38.784Z",
+        "line": 41,
+        "name": "get all links",
+        "description": "",
+        "id": "console-logs-in-devtools;get-all-links;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 963131900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Browser is open and user navigate to \"https://www.w3.org/standards/webofdevices/multimodal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/webofdevices/multimodal\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.browser_is_open_and_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137664506400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "get all links",
+            "match": {
+              "location": "StepDefinition.TestStepDefinition.get_all_links()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-01T19:49:57.415Z",
+        "line": 42,
+        "name": "get all links",
+        "description": "",
+        "id": "console-logs-in-devtools;get-all-links;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 986131500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Browser is open and user navigate to \"https://www.w3.org/standards/badpage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.w3.org/standards/badpage\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.TestStepDefinition.browser_is_open_and_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114528049600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "get all links",
+            "match": {
+              "location": "StepDefinition.TestStepDefinition.get_all_links()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Console logs in devtools",
+    "description": "",
+    "id": "console-logs-in-devtools",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TestScenarioDevTools.feature",
+    "tags": []
+  }
+]

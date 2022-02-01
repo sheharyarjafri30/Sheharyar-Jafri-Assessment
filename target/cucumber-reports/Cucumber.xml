@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="529.738">
+    <testcase classname="Console logs in devtools" name="Verify Console errors" time="1.801">
+        <system-out><![CDATA[Given Browser is open and user navigate to "https://www.w3.org/standards/webdesign/htmlcss".passed
+Then get and verify console logs............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Console logs in devtools" name="Verify Console errors 2" time="1.057">
+        <system-out><![CDATA[Given Browser is open and user navigate to "https://www.w3.org/standards/webofdevices/multimodal".passed
+Then get and verify console logs............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Console logs in devtools" name="Verify Console errors 3" time="0.983">
+        <failure message="there is error message" type="java.lang.AssertionError"><![CDATA[Given Browser is open and user navigate to "https://www.w3.org/standards/badpage".passed
+Then get and verify console logs............................................failed
+
+StackTrace:
+java.lang.AssertionError: there is error message
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at CucumberPageObjectModel.dashBoardPage.getConsoleLogs(dashBoardPage.java:43)
+	at StepDefinition.TestStepDefinition.get_and_verify_console_logs(TestStepDefinition.java:27)
+	at ✽.get and verify console logs(file:///C:/Users/Sheharyar%20Jafri/Desktop/CucumberJavaDevTools/src/test/resources/Features/TestScenarioDevTools.feature:6)
+]]></failure>
+    </testcase>
+    <testcase classname="Console logs in devtools" name="get response code" time="1.254">
+        <system-out><![CDATA[Given Browser is open and user navigate to "https://www.w3.org/standards/webdesign/htmlcss".passed
+Then get and verify response code "https://www.w3.org/standards/webdesign/htmlcss".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Console logs in devtools" name="get response code 2" time="1.145">
+        <system-out><![CDATA[Given Browser is open and user navigate to "https://www.w3.org/standards/webofdevices/multimodal".passed
+Then get and verify response code "https://www.w3.org/standards/webofdevices/multimodal".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Console logs in devtools" name="get response code 3" time="1.267">
+        <system-out><![CDATA[Given Browser is open and user navigate to "https://www.w3.org/standards/badpage".passed
+Then get and verify response code "https://www.w3.org/standards/badpage"....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Console logs in devtools" name="get all links" time="267.938">
+        <system-out><![CDATA[Given Browser is open and user navigate to "https://www.w3.org/standards/webdesign/htmlcss".passed
+Then get all links..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Console logs in devtools" name="get all links 2" time="138.63">
+        <system-out><![CDATA[Given Browser is open and user navigate to "https://www.w3.org/standards/webofdevices/multimodal".passed
+Then get all links..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Console logs in devtools" name="get all links 3" time="115.516">
+        <system-out><![CDATA[Given Browser is open and user navigate to "https://www.w3.org/standards/badpage".passed
+Then get all links..........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
